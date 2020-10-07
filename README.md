@@ -11,7 +11,10 @@ And then
 ```
 cp chicksay /usr/local/bin/ or /usr/bin/
 ```
-
+Help
+```
+chicksay -h (or just chicksay)
+```
 Example 1
 ```
 date | chicksay -eva yellow
@@ -23,6 +26,28 @@ uname -a | chicksay -lisa yellow
 Example 3 (Text Animation)
 ```
 cat /etc/passwd | chicksay -eva yellow
+```
+Girls 
+```
+lisa
+anna
+eva
+vendela
+angelina
+```
+Others:
+```
+homer
+fish
+alien
+```
+Colors
+```
+magenta
+yellow
+brown
+cyan
+red
 ```
 
 ### Prerequisites
