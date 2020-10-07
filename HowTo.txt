@@ -1,0 +1,39 @@
+****************************
+*      Chicksay 2013       *
+*                          *
+*       by hexabit         *
+*                          *
+****************************
+
+  Install: First chmod +x chicksay 
+  Then copy chicksay to /usr/local/bin/ or /usr/bin/
+******************************
+
+Example: date | chicksay -eva yellow
+
+Example 2: uname -a | chicksay -lisa yellow
+
+Example 3 (Animation): cat /etc/passwd | chicksay -eva yellow
+
+*******************************
+
+Help: chicksay -h or just chicksay
+
+Girls: lisa
+       anna
+       eva
+       vendela
+       angelina
+
+Others: homer
+	fish
+	alien
+
+Colors: blue
+        magenta
+        yellow
+        brown
+        cyan
+        red
+
+******************************
