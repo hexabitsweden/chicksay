@@ -67,3 +67,5 @@ This project is licensed under the BSD License
 * I apologize in  advance, i know this is not politically correct
 * Not politically correct
 * Not suited for work
+
+For more info: http://blog.codeland.se
