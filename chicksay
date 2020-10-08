@@ -7,6 +7,49 @@
  white="\033[0;37m"
 ########################
 
+man() {
+cat <<"EOT"
+                 . ? .        
+                   ´ 
+	        .-"""-.       
+	       /  \___ \      
+	       |/`    \|      
+	       (  a  a )      
+	       |   _\ |       
+	       )\  =  /       
+	   _.-'  '---;        
+	 /`           `-.     
+	|                \    
+	|    |   .  & .   \   
+	\    /      &   |  ;  
+	|   |           |  ;  
+	|   /\          /  |  
+	\   \ )   -:-  /\  \   
+	 `.  `-.  -:-  | \  \_ 
+	   '-.  `-.    (  './\`\
+	    / `'-. `\  |    \/_/
+	    |    \  |  |      
+	    |    /'-\  /      
+	     \   \   |/|      
+	      \   )_/\ |      
+	       \      \|      
+	        \      \      
+	         '.     |     
+       		    /   /      
+	          /  .';      
+	        /`  /  |      
+	       /   /   |      
+	      |  .' \  |      
+	      /  \  )  |      
+	      \   \ /  '-.._  
+	       '.ooO\__._.Ooo 
+EOT
+}
+
+
+
+
+
 alien() {
 cat <<"EOT"
 
@@ -348,6 +391,19 @@ done
 
 }
 
+
+pipes20 () {
+while read line; do
+clear
+echo -e " $color  " 
+man
+echo -e "$white      $line "
+echo -e " $none";
+sleep 1
+done
+}
+
+
 help () {
 echo " "
 echo "Usage: date | dicksay [girl] color"
@@ -398,6 +454,12 @@ if [[ $1 == "-lisa" ]]
 then
 pipes2
 fi
+
+if [[ $1 == "-man" ]]
+then
+pipes20
+fi
+
 
 if [[ $1 == "-homer" ]]
 then

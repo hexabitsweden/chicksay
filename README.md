@@ -27,6 +27,10 @@ Example 3 (Text Animation)
 ```
 cat /etc/passwd | chicksay -eva yellow
 ```
+Example 4
+```
+cat /etc/passwd | chicksay -man green (will show a naked man, reading passwd)
+```
 Girls 
 ```
 lisa
@@ -56,7 +60,7 @@ Only tested on FreeBSD (Developed on FreeBSD 8) and a couple of Linux distros.
 Does not work with colors on ZSH and on default Mac os terminals. 
 
 ## Running
-![Image of Yaktocat](https://github.com/hexabitsweden/chicksay/blob/master/Lisa.png?raw=true)
+![Image of Lisa](https://github.com/hexabitsweden/chicksay/blob/master/screenshots/Lisa.png?raw=true)
 
 ## License
 
