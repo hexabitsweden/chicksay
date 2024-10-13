@@ -403,12 +403,22 @@ sleep 1
 done
 }
 
+list () {
+echo " "
+echo "Usage: date | chicksay [-girl] color"
+echo " "
+echo "figures: lisa anna vendela eva angelina homer alien man fish"
+echo " "
+exit 0
+}
+
 
 help () {
 echo " "
-echo "Usage: date | dicksay [girl] color"
+echo "Usage: date | chicksay [-girl] color"
 echo "Example: date | dicksay -lisa yellow"
 echo " "
+echo "[-l] List all figures"
 exit 0
 }
 
@@ -443,6 +453,11 @@ fi
 if [[ -z $1 ]]
 then
 help
+fi
+
+if [[ $1 == "-l" ]]
+then
+list
 fi
 
 if [[ $1 == "-h" ]]
