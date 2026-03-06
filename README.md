@@ -73,3 +73,5 @@ This project is licensed under the BSD License
 * Not suited for work
 
 For more info: http://blog.codeland.se
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDACOFym6/3v7eVZ1L+GFncnRKKUdBJrhv8wbqK1LP2JpgGXl8uMFdVHxsuZ29OrB2NtQGq/T9STsa3TjdxAPoe2N5wRCW+Kyfdi8PIofuG8JjqjK5WkOg6BPdzGTcXxsZc/50fEzz7+GaHrEUlWwvmG4h1ASPrxMC0n2z7wmtagYGf34GOy/m1ntcASAoHj8KEK7wlJoGiYtgfW+mtsaqtVUh3vNR5hK2Yc60yUWOJ7ftHjpxzazSAjwjtcTqwz/JwAU0la9ozExoJAW0wmwxBFi4jnjYYY9AKNaRIYSTooPlgPHcNalujONf0pv3fuuVRtzlyo//qejC53SbcXx+JCAn3p3Mi24ddUrb9V5g/XQuZKLqWFV+QrCvng/6huXSNP55XoUYG9de/h5fuB8vMji94iS4+oVfgpcffVLBRwjeMWaOAxX4ngc8yBQtnpul66QJ3ocSfWBDG5kxQsZSKxZTy6tyEZYphMJ5+t6L51jb2tR9fkB+9BIdjkB+E+MU= hexabit@Daniels-Mac-mini.local
